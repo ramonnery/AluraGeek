@@ -1,0 +1,18 @@
+:root {
+    --font-padrao: 'Raleway', sans-serif;
+    --font-peso-normal: 400;
+    --font-peso-medio: 600;
+    --font-peso-semibold: 600;
+    --font-peso-bold: 700;
+
+    --cinza-fundo: #F5F5F5;
+    --cinza-font-pesquisa: #A2A2A2;
+    --branco: #FFF;
+    --azul: #2A7AE4;
+    --azul-medio: #5595E9;
+    --azul-claro: #D4E4FA;
+    --azul-claro-rodape: #D4E4FA;
+    --preto-titulo-galeria: #464646;
+    --preto-sombra: #00000050;
+
+}

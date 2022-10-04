@@ -1,0 +1,71 @@
+.banner {
+    background-image: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--preto-sombra);
+    background-blend-mode: darken;
+
+    height: 12rem;
+
+    position: relative;
+
+    margin-bottom: 1.25rem;
+}
+
+.bg__texto__banner {
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+}
+
+.titulo__banner {
+    font-family: inherit;
+    font-size: 1.375rem;
+    font-weight: var(--font-peso-bold);
+
+    line-height: 1.2;
+
+    color: var(--branco);
+}
+
+.texto__banner {
+    font-family: inherit;
+    font-size: .875rem;
+    font-weight: var(--font-peso-medio);
+
+    line-height: 2.5;
+
+    color: var(--branco);
+}
+
+.botao__banner {
+    width: 7.4375rem;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        background-image: url(../../img/banner.jpg);
+        height: 22rem;
+    }
+
+    .bg__texto__banner {
+        top: 10.5rem;
+        left: 3rem;
+    }
+
+    .titulo__banner {
+        font-size: 3.25rem;
+    }
+
+    .texto__banner {
+        font-size: 1.375rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .bg__texto__banner {
+        top: 9.5rem;
+        left: 7rem;
+    }
+}

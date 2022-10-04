@@ -1,0 +1,129 @@
+.conteudo__principal {
+    width: 95%;
+    margin: auto;
+}
+
+.container__titulo__galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 1.25rem;
+    margin-left: .5rem;
+    margin-right: .5em;
+
+
+}
+
+.titulo__galeria {
+    font-family: inherit;
+    font-size: 1.375rem;
+    font-weight: 700;
+
+    color: var(--preto-titulo-galeria);
+}
+
+.galeria__link {
+    font-family: inherit;
+    font-size: .875rem;
+    font-weight: 700;
+
+    display: block;
+
+    color: var(--azul);
+
+    text-decoration: none;
+
+    background-image: url(../../img/icones/seta.svg);
+    background-repeat: no-repeat;
+    background-position: 4.5rem;
+
+    width: 6rem;
+
+}
+
+.produto {
+    margin-bottom: 1rem;
+}
+
+.nav__produtos {
+    margin-bottom: 1.5rem;
+}
+
+.lista__produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img__produto {
+    width: 9.75rem;
+    height: 10.875;
+}
+
+.descricao__produto {
+    font-family: inherit;
+    font-size: .875rem;
+    font-weight: 500;
+
+    color: var(--preto-titulo-galeria);
+
+    margin: 8px 0 8px;
+}
+
+.preco__produto {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: (--preto-titulo-galeria);
+
+    margin-bottom: 8px;
+
+}
+
+.link__produto {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--azul);
+
+    text-decoration: none;
+    
+}
+
+li[pos='5'], li[pos='6'] {
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    .conteudo__principal {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    li[pos='5'] {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1366px) {
+    li[pos='6'] {
+        display: block;
+    }
+
+    .conteudo__principal {
+        width: 85%;
+    }
+
+    .img__produto {
+        width: 10.875rem;
+    }
+}
